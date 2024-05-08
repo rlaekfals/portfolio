@@ -1,0 +1,36 @@
+$("#popup_wrap1").hide();
+$("#popup_wrap2").hide();
+$("#popup_wrap3").hide();
+$("#popup_wrap4").hide();
+$(".popup_open1").click(function(){
+    $("#popup_wrap1").fadeIn(0)
+    $("body").addClass("scroll_none")
+});
+$(".popup_open2").click(function(){
+    $("#popup_wrap2").fadeIn(0)
+    $("body").addClass("scroll_none")
+});
+$(".popup_open3").click(function(){
+    $("#popup_wrap3").fadeIn(0)
+    $("body").addClass("scroll_none")
+});
+$(".popup_open4").click(function(){
+    $("#popup_wrap4").fadeIn(0)
+    $("body").addClass("scroll_none")
+});
+$("#popup_wrap1").click(function(){
+    $("#popup_wrap1").fadeOut(0)
+    $("body").removeClass("scroll_none")
+});
+$("#popup_wrap2").click(function(){
+    $("#popup_wrap2").fadeOut(0)
+    $("body").removeClass("scroll_none")
+});
+$("#popup_wrap3").click(function(){
+    $("#popup_wrap3").fadeOut(0)
+    $("body").removeClass("scroll_none")
+});
+$("#popup_wrap4").click(function(){
+    $("#popup_wrap4").fadeOut(0)
+    $("body").removeClass("scroll_none")
+});
